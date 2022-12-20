@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>News homepage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="bg">
+      <header class="primary-header">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#">
+              <svg class="logo" width="40" height="28">
+                <use xlink:href="assets/images/logospr.svg#logo"></use>
+              </svg>
+            </a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+              <span class="visually-hidden">Menu</span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation">
+              <ul aria-label="Primary" role="list" class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="grid-container">
+          <div class="grid-hero-img hero-img-desktop">
+            <img src="assets/images/image-web-3-desktop.jpg" alt="lego">
+          </div>
+          <div class="hero-img-mobile">
+            <img src="assets/images/image-web-3-mobile.jpg" alt="lego">
+          </div>
+          <div class="grid-header">
+            <h1 class="primary-heading fs-primary-heading ff-primary fw-extra-bold margin-top-400">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="grid-about padding-block-200">
+            <p class="dark-text"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <button class="button margin-top-300" type="button">Read more</button>
+          </div>
+  
+          <div class="grid-sidebar light-text padding-block-400">
+            <h1 class="fs-primary-heading margin-top-200 margin-bottom-600" id="news-header">New</h1>
+            <h2 class="fs-secondary-heading padding-block-200">Hydrogen VS Electric Cars</h2>
+            <p class="news">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr class="margin-top-bottom-400">
+            <h2 class="fs-secondary-heading padding-block-200">The Downsides of AI Artistry</h2>
+            <p class="news">What are the possible adverse effects of on-demand AI image generation?</p>
+            <hr class="margin-top-bottom-400">
+            <h2 class="fs-secondary-heading padding-block-200">Is VC Funding Drying Up?</h2>
+            <p class="news">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+          <div class="grid-proda">
+            <li class="flex margin-top-bottom-500">
+              <img src="assets/images/image-retro-pcs.jpg" alt="retro pc">
+              <div class="description">
+                <h2 class="text-neutral-200 fs-700">01</h2>
+                <h4 class="fs-600 fw-bold margin-top-bottom-300">Reviving Retro PCs</h4>
+                <p class="fs-400 dark-text">What happens when old PCs are given modern upgrades?</p>
+              </div>
+            </li>
+          </div>
+          <div class="grid-prodb">
+            <li class="flex margin-top-bottom-500">
+              <img src="assets/images/image-top-laptops.jpg" alt="laptop">
+              <div class="description">
+                <h2 class="text-neutral-200 fs-700">02</h2>
+                <h4 class="fs-600 fw-bold margin-top-bottom-300">Top 10 Laptops of 2022</h4>
+                <p class="fs-400 dark-text">Our best picks for various needs and budgets.</p>
+              </div>
+            </li>
+          </div>
+          <div class="grid-prodc">
+            <li class="flex margin-top-bottom-500">
+              <img src="assets/images/image-gaming-growth.jpg" alt="gaming-growth">
+              <div class="description">
+                <h2 class="text-neutral-200 fs-700">03</h2>
+                <h4 class="fs-600 fw-bold margin-top-bottom-300">The Growth of Gaming</h4>
+                <p class="fs-400 dark-text">How the pandemic has sparked fresh opportunities.</p>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+      <div class="attribution margin-top-bottom-700">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="http://www.vilnislv.com">vilnislv</a>.
+      </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
